@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewContact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/headOfficeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:text="@string/headOffice"
+        android:textSize="@dimen/headingsSize"
+        android:textColor="@color/headings"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/headOfficeStreetAddressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/headOfficeStreetAddress"
+        android:textSize="@dimen/mediumText" 
+        android:layout_marginLeft="10px"/>
+
+    <TextView
+        android:id="@+id/headOfficeCityRegionStateTextView"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/mediumText"
+        android:layout_height="wrap_content"
+        android:text="@string/headOfficeCityRegionState" 
+        android:layout_marginLeft="10px"/>
+    <TextView
+        android:id="@+id/headOfficePhoneNumberTextView"
+        android:textSize="@dimen/mediumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/headOfficePhoneNumber" 
+        android:layout_marginLeft="10px"/>
+    
+    <TextView
+        android:id="@+id/headOfficeEmailTextView"
+        android:textSize="@dimen/mediumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/headOfficeEmail" 
+        android:layout_marginLeft="10px"/>
+
+    <TextView
+        android:id="@+id/BlankTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rehearsalsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rehearsals"
+        android:textSize="@dimen/headingsSize"
+        android:textColor="@color/headings" 
+        android:layout_marginLeft="10px" 
+        android:textStyle="bold"/>
+    
+    <TextView
+        android:id="@+id/rehearsalsStreetAddressTextView"
+        android:textSize="@dimen/mediumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rehearsalsStreetAddress" 
+        android:layout_marginLeft="10px"/>
+    
+    <TextView
+        android:id="@+id/rehearsalsCityRegionStateTextView"
+        android:textSize="@dimen/mediumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rehearsalsCityRegionState" 
+        android:layout_marginLeft="10px"/>
+
+    <TextView
+        android:id="@+id/rehearsalsPhoneNumberTextView"
+        android:textSize="@dimen/mediumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rehearsalsPhoneNumber" 
+        android:layout_marginLeft="10px"/>
+    
+    <TextView
+        android:id="@+id/rehearsalsEmailTextView"
+        android:textSize="@dimen/mediumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rehearsalsEmail" 
+        android:layout_marginLeft="10px"/>
+
+    <TextView
+        android:id="@+id/BlankTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" 
+        android:minHeight="50px"/>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:paddingLeft="10px" 
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/spinningHalfContactFacebookButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@drawable/facebookanimation"
+            android:padding="50px"
+            android:text="" 
+            android:minWidth="125px" 
+            android:layout_marginLeft="20px" 
+            android:layout_marginRight="20px" 
+            android:gravity="center_horizontal"/>
+        
+        <Button
+            android:id="@+id/spinningHalfContactTwitterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/twitteranimation"
+            android:padding="50px"
+            android:text="" 
+            android:minWidth="125px" 
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/spinningHalfContactYoutubeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/youtubeanimation"
+            android:padding="50px"
+            android:text="" 
+            android:minWidth="125px" 
+            android:layout_marginRight="30px" 
+            android:layout_marginLeft="20px" 
+            android:gravity="center_horizontal"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:minHeight="100px" 
+        android:gravity="center_horizontal">
+        
+        <Button
+            android:id="@+id/spinningHalfContactSpinningHalfButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/spinninghalfanimation"
+            android:padding="50px"
+            android:text="" 
+            android:minWidth="125px" 
+            android:layout_marginRight="20px" 
+            android:layout_marginLeft="20px"/>
+    </TableRow>
+
+    
+
+        
+    
+
+</TableLayout>
+
+</ScrollView>

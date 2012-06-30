@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/maintablerow0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/gigguide"
+            android:onClick="gigGuideMainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/buttonanimation"
+            android:text="@string/gigguide"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/rehearsals"
+            android:onClick="rehearsalsMainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/buttonanimation"
+            android:text="@string/rehearsals"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/maintablerow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/artists"
+            android:onClick="artistsMainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/buttonanimation"
+            android:text="@string/artists"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/venues"
+            android:onClick="venuesMainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/buttonanimation"
+            android:text="@string/venues"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/maintablerow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/aboutus"
+            android:onClick="aboutUsMainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/buttonanimation"
+            android:text="@string/aboutUs"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/contact"
+            android:onClick="contactMainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/buttonanimation"
+            android:text="@string/contact"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+    </TableRow>
+
+</TableLayout>

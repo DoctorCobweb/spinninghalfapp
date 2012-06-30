@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/scrollViewAboutUs"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" >
+
+	<TableLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:stretchColumns="1,2" >
+
+		<TableRow
+		    android:id="@+id/aboutUsTableRow0"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" >
+
+			<Button
+			    android:id="@+id/spinningHalfAboutUsSpinningHalfButton"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:background="@drawable/spinninghalfanimation"
+			    android:text=""/>
+
+			<TextView
+			    android:id="@+id/aboutUsSpinningHalf"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center"
+			    android:textColor="@color/headings"
+			    android:textSize="@dimen/headingsSize"
+			    android:text="@string/app_name"
+			    android:textStyle="bold"
+			    android:layout_weight="1"/>
+
+		</TableRow>
+
+		    <TableRow
+		        android:id="@+id/aboutUsTableRow1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+
+		        <TextView
+		            android:id="@+id/aboutUsBlurbTextView"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_span="2"
+		            android:text="@string/loremIpsum" />
+		    </TableRow>
+		
+	</TableLayout>
+
+</ScrollView>
